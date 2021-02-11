@@ -31,7 +31,6 @@
       </ul>
     </div>
   </section>
-  </section>
 
   <section id="MLG-Rush-Biology-pics-2">
     <div id="pics-2">
@@ -42,7 +41,6 @@
         <li><a href="Biology/Biology-Spawn2.php"><img src="pictures/Maps/MLG-Rush/Biology/2.7.png" alt="Biology-Spawn2" /></a></li>
       </ul>
     </div>
-  </section>
   </section>
 </body>
 <footer class="footer-pics">

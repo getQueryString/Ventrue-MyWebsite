@@ -31,7 +31,6 @@
       </ul>
     </div>
   </section>
-  </section>
 
   <section id="MLG-Rush-Cube-pics-2">
     <div id="pics-2">

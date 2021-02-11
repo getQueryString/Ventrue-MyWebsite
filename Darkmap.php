@@ -31,7 +31,6 @@
       </ul>
     </div>
   </section>
-  </section>
 
   <section id="MLG-Rush-Darkmap-pics-2">
     <div id="pics-2">
