@@ -16,13 +16,11 @@
 <body>
   <?php
 $ip = $_SERVER["REMOTE_ADDR"];
-$mip = "77.20.52.10";
+$mip = "*";
 
 if($ip != $mip):?>
-	<p style=margin-top:120px;color:red;>Blockiert</p>
-  <script>document.getElementById("login").classList.add("hidden");</script>
+  <style>#login{display: none;}</style>
 <?php else: ?>
-  <p style="margin-top:120px;color:red;">Nicht blockiert</p>
 <?php endif; ?>
   <form id="login" class="hidden">
     <input type="text" id="key" placeholder="Key">

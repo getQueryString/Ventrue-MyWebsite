@@ -8,7 +8,7 @@ html, body {
   font-family: 'Russo One', sans-serif;
 }
 
-.swal2-title{
+.swal2-title {
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-variant: normal;
 }
@@ -30,7 +30,7 @@ noscript, header, footer {
   display: none;
 }
 
-#login{
+#login {
   margin-top: 100px;
 }
 

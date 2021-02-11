@@ -14,14 +14,14 @@ loginform.classList.remove("hidden");
 function checkKey() {
 
   // Retrieve Text
-  /*fetch("main.js-key.txt")
+  fetch("main.js-key.txt")
     .then(response => response.text())
     .then(textData => {
       console.log(textData);
     })
     .catch(error => {
       console.error('Error:', error);
-    });*/
+    });
 
   const key = "1";
   const inputKey = inputKeyField.value;
@@ -88,17 +88,9 @@ function checkKey() {
   }
 }
 
-// .zip-Download
-var zip = new JSZip();
-//zip.file("Hello.txt", "Hello world\n");
+// Download
+document.getElementById("download-button").addEventListener("click", download);
 
-jQuery("#download-link").on("click", function() {
-  zip.generateAsync({
-    type: "download-link"
-  }).then(function(download) {
-    saveAs(download, "Maps.zip");
-  }, function(err) {
-    jQuery("#download-link").text(err);
-  });
-  console.log(JSZip);
-});
+function download() {
+  window.open("https://download943.mediafire.com/1a4mqfv695eg/psg4xq8vzjsgj43/Maps.zip")
+}
