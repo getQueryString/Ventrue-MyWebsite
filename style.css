@@ -344,27 +344,7 @@ footer {
 /********** iPhone 6/7/8 **********/
 @media screen and (max-width: 375px) {
 
-  /********** HEADER **********/
-  header nav {
-    float: right;
-    margin: -75px 44px 0 0;
-  }
-
-  header nav ul li {
-    margin-right: 30px;
-    margin-left: 25px;
-    margin-top: 35px;
-  }
-
-  header nav ul li a {
-    font-size: 14px;
-  }
-
-  header nav ul li:hover {
-    padding-right: 5px;
-    letter-spacing: -0.1px;
-  }
-
+  /********** GENERAL SETTINGS **********/
   noscript {
     color: red;
     display: flex;
@@ -428,6 +408,27 @@ footer {
     width: 375px;
     height: auto;
     margin-top: 27px;
+  }
+
+  /********** HEADER **********/
+  header nav {
+    float: right;
+    margin: -75px 44px 0 0;
+  }
+
+  header nav ul li {
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-top: 35px;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+  }
+
+  header nav ul li:hover {
+    padding-right: 5px;
+    letter-spacing: -0.1px;
   }
 
   /********** FOOTER **********/
