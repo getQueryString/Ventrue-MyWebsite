@@ -16,11 +16,10 @@
 <body>
   <?php
 $ip = $_SERVER["REMOTE_ADDR"];
-$mip = "*";
+$mip = "77.20.52.10";
 
 if($ip != $mip):?>
   <style>#login{display: none;}</style>
-<?php else: ?>
 <?php endif; ?>
   <form id="login" class="hidden">
     <input type="text" id="key" placeholder="Key">
