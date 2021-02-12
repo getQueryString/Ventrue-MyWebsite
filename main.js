@@ -21,11 +21,11 @@ function checkKey() {
     .then(textData => {
       console.log("Text: " + textData);
       if (textData === inputKey) {
-        keyCorrect()
-      } else if (document.getElementById("key").value == "") {
-        keyNone()
+        keyCorrect();
+      } else if (!inputKey.length) {
+        keyNone();
       } else {
-        keyError()
+        keyError();
       }
     })
     .catch(error => {
@@ -75,6 +75,7 @@ function keyNone() {
 }
 
 function keyError() {
+  loginform.classList.add("hidden");
   if (media.matches) {
     Swal.fire({
       text: "Falscher Key!",
@@ -95,8 +96,7 @@ function keyError() {
 }
 /*downloadButton.classList.add("hidden");
 downloadDiv.classList.remove("download-div");
-comingsoon.classList.remove("hidden");
-loginform.classList.remove("hidden");*/
+*/
 
 // Download
 document.getElementById("download-button").addEventListener("click", download);
