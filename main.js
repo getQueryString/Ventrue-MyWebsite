@@ -13,7 +13,7 @@ loginform.classList.remove("hidden");
 
 function checkKey() {
 
-  // Retrieve Text
+  // Retrieve text
   fetch("main.js-key.txt")
     .then(response => response.text())
     .then(textData => {
