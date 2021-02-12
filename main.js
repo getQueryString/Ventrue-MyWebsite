@@ -23,7 +23,7 @@ function checkKey() {
       console.error('Error:', error);
     });
 
-  const key = "1";
+  const key = "jovan";
   const inputKey = inputKeyField.value;
   var media = window.matchMedia("(max-width: 375px)")
 
@@ -33,13 +33,15 @@ function checkKey() {
       Swal.fire({
         text: "Richtiger Key angegeben!",
         icon: "success",
-        confirmButtonText: "OK"
+        showConfirmButton: false,
+        timer: 1500
       })
     } else {
       Swal.fire({
         title: "Richtiger Key angegeben!",
         icon: "success",
-        confirmButtonText: "OK"
+        showConfirmButton: false,
+        timer: 1500
       })
     }
     downloadButton.classList.remove("hidden");
@@ -51,13 +53,15 @@ function checkKey() {
       Swal.fire({
         text: "Kein Key angegeben!",
         icon: "warning",
-        confirmButtonText: "OK"
+        showConfirmButton: false,
+        timer: 1500
       })
     } else {
       Swal.fire({
         title: "Kein Key angegeben!",
         icon: "warning",
-        confirmButtonText: "OK"
+        showConfirmButton: false,
+        timer: 1500
       })
     }
   } else {
@@ -92,5 +96,5 @@ function checkKey() {
 document.getElementById("download-button").addEventListener("click", download);
 
 function download() {
-  window.open("*")
+  window.open("https://download943.mediafire.com/1a4mqfv695eg/psg4xq8vzjsgj43/Maps.zip")
 }

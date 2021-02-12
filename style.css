@@ -13,6 +13,11 @@ html, body {
   font-variant: normal;
 }
 
+.swal2-popup{
+  width: 25% !important;
+  margin-top: 15% !important;
+}
+
 html {
   background-color: #383838;
 }
@@ -372,6 +377,47 @@ footer {
 
   noscript p {
     margin: auto;
+  }
+
+  .swal2-popup{
+    width: 70% !important;
+    height: 40% !important;
+    margin-top: 45% !important;
+  }
+
+  .swal2-icon{
+    width: 4em !important;
+    height: 4em !important;
+    margin: 0 auto 1em !important;
+  }
+
+  .swal2-icon-content{
+    font-size: 3em !important;
+  }
+
+  .swal2-x-mark-line-left, .swal2-x-mark-line-right{
+    top: 1.83em !important;
+    width: 2.25em !important;
+  }
+
+  .swal2-x-mark-line-left{
+    left: 0.9em !important;
+  }
+
+  .swal2-x-mark-line-right{
+    right: 0.9em !important;
+  }
+
+  .swal2-success-line-long{
+    top: 2em !important;
+    right: .3em !important;
+    width: 2.5em !important;
+  }
+
+  .swal2-success-line-tip{
+    top: 2.44em !important;
+    left: .65em !important;
+    width: 1.3em !important
   }
 
   h1 {
