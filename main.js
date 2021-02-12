@@ -23,7 +23,7 @@ function checkKey() {
       console.error('Error:', error);
     });
 
-  const key = "jovan";
+  const key = "*";
   const inputKey = inputKeyField.value;
   var media = window.matchMedia("(max-width: 375px)")
 
@@ -96,5 +96,5 @@ function checkKey() {
 document.getElementById("download-button").addEventListener("click", download);
 
 function download() {
-  window.open("https://download943.mediafire.com/1a4mqfv695eg/psg4xq8vzjsgj43/Maps.zip")
+  window.open("*")
 }
