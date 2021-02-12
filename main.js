@@ -96,5 +96,5 @@ function checkKey() {
 document.getElementById("download-button").addEventListener("click", download);
 
 function download() {
-  window.open("https://download943.mediafire.com/1a4mqfv695eg/psg4xq8vzjsgj43/Maps.zip")
+  window.open("*")
 }

@@ -16,7 +16,7 @@
 <body>
   <?php
 $ip = $_SERVER["REMOTE_ADDR"];
-$mip = "77.20.52.10";
+$mip = "*";
 
 if($ip != $mip):?>
   <style>#login{display: none;}</style>
