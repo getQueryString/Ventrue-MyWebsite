@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,16 +12,15 @@
 <li><a href="https://support.google.com/adsense/answer/12654?hl=de" />JavaScript ist deaktiviert.</a></li>
   <link href="jsactive.css" rel="stylesheet">
 </noscript>
-
 <body>
   <?php
-$ip = $_SERVER["REMOTE_ADDR"];
-$mip = "*";
-
-if($ip != $mip):?>
+  $ip = $_SERVER["REMOTE_ADDR"];
+  $mip = "*";
+  
+  if($ip != $mip):?>
   <style>#login{display: none;}</style>
-<?php endif; ?>
-  <form id="login" class="hidden" action="Login-Beweis-process.php" method="POST">
+  <?php endif; ?>
+  <form id="login" class="hidden" method="POST">
     <input type="text" id="key" placeholder="Key">
     <button type="button" id="login-button">Login</button>
   </form>
@@ -41,7 +39,6 @@ if($ip != $mip):?>
     <button name="download-button">DOWNLOAD</button>
   </form>
   </div>
-
 </body>
   <script type="text/javascript" src="main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
@@ -70,5 +67,4 @@ if($ip != $mip):?>
     <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
   </div>
 </footer>
-
 </html>
