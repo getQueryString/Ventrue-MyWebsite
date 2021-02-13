@@ -1,7 +1,7 @@
 <?php
-$filename = "Beweise.zip";
-$filepath = "download/Beweise.zip";?>
-<script>const filename = "Beweise.zip";
+$filename = "x.zip";
+$filepath = "download/x.zip";?>
+<script>const filename = "x.zip";
 const file_error = "Error: File " + filename + " does not found.";</script>
 <?php
 if(isset($_POST["download-button"])){
