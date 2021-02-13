@@ -9,7 +9,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Beweise</title>
 </head>
-<noscript><p>JavaScript ist deaktiviert.</p>
+<noscript>
+<li><a href="https://support.google.com/adsense/answer/12654?hl=de" />JavaScript ist deaktiviert.</a></li>
   <link href="jsactive.css" rel="stylesheet">
 </noscript>
 
@@ -21,7 +22,7 @@ $mip = "*";
 if($ip != $mip):?>
   <style>#login{display: none;}</style>
 <?php endif; ?>
-  <form id="login" class="hidden">
+  <form id="login" class="hidden" action="Login-Beweis-process.php" method="POST">
     <input type="text" id="key" placeholder="Key">
     <button type="button" id="login-button">Login</button>
   </form>
@@ -34,13 +35,16 @@ if($ip != $mip):?>
     </nav>
   </header>
   <hr / id="mlg-hr-top">
-  <div id="download-div" class="download-div">
-    <button class="hidden" id="download-button">DOWNLOAD</button>
+  <!-- Download -->
+  <div id="download-div" class="download-div hidden">
+  <form method="POST" action="download-process.php">
+    <button name="download-button">DOWNLOAD</button>
+  </form>
   </div>
+
 </body>
   <script type="text/javascript" src="main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-  <script src="sweetalert2.all.min.js"></script>
 <footer class="footer-main" id="footer-main">
   <div id="footer1">
     <ul>

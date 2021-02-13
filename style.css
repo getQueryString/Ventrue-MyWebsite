@@ -46,15 +46,20 @@ h3 {
 noscript {
   margin-top: 150px;
   margin-bottom: -547px;
-  color: red;
   display: flex;
   padding-top: 250px;
   padding-bottom: 270px;
   background-color: black;
 }
 
-noscript p {
+noscript li {
   margin: auto;
+}
+
+noscript li a {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 h1 {
