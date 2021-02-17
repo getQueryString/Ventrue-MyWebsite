@@ -27,14 +27,11 @@
 
     <script>var media = window.matchMedia("(max-width: 375px)");</script>
       <?php
-  if(isset($_POST["login"])){
-    $file = file_get_contents("x.txt", FALSE, NULL, 0, 17) or die("Unable to open file!");
-    $key = $_POST["key"];
-    if($key == $file){
-      echo "<script>console.log('Richtig.');</script>";
+  if(x){
+    x
+    if(x){
 
-      $filename = "Beweise.zip";
-      $filepath = "download/Beweise.zip";?>
+      x?>
       <script>const filename = "Beweise.zip";
       const file_error = "Error: File " + filename + " does not found.";</script>
       <?php
