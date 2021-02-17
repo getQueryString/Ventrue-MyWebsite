@@ -22,7 +22,7 @@ const loginButton = document.getElementById("login-button");
 loginButton.addEventListener("click", () => {
   const inputKey = inputKeyField.value;
   // Retrieve text
-  fetch("0.txt")
+  fetch("x")
     .then(response => response.text())
     .then(textData => {
       if (textData === inputKey) {
