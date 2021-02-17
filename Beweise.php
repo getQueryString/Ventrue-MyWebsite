@@ -13,17 +13,98 @@
   <link href="jsactive.css" rel="stylesheet">
 </noscript>
 <body>
-  <?php
-  $ip = $_SERVER["REMOTE_ADDR"];
-  $mip = "*";
-  
-  if($ip != $mip):?>
-  <style>#login{display: none;}</style>
-  <?php endif; ?>
-  <form id="login" class="hidden" method="POST">
-    <input type="text" id="key" placeholder="Key">
-    <button type="button" id="login-button">Login</button>
+   <!--
+   $ip = $_SERVER["REMOTE_ADDR"];
+   $mip = "x";
+
+   if($ip == $mip):?>
+   <style>#login{display: none;}</style>
+ endif; -->
+  <form id="login" method="POST" action="">
+    <input type="text" id="key" placeholder="Key" name="key">
+    <input type="submit" id="login-button" name="login" value="Login">
   </form>
+
+    <script>var media = window.matchMedia("(max-width: 375px)");</script>
+      <?php
+  if(isset($_POST["login"])){
+    $file = file_get_contents("x.txt", FALSE, NULL, 0, 17) or die("Unable to open file!");
+    $key = $_POST["key"];
+    if($key == $file){
+      echo "<script>console.log('Richtig.');</script>";
+
+      $filename = "Beweise.zip";
+      $filepath = "download/Beweise.zip";?>
+      <script>const filename = "Beweise.zip";
+      const file_error = "Error: File " + filename + " does not found.";</script>
+      <?php
+      if(file_exists($filepath)){
+        // Define headers
+
+        header("Cache-Control: no-cache, no-store, must-revalidate");
+        header("Expires: 0");
+        header("Content-type: application/zip");
+        header('Content-Disposition: attachment; filename="'.$filename.'"');
+        header("Content-Transfer-Encoding: binary");
+        header("Content-Length: ".filesize($filepath));
+        ob_end_flush();
+        readfile($filepath);
+      } else{
+          echo "<script>console.log(file_error)</script>";
+          echo "Error: File $filename does not found.";
+        }
+
+    }else if($key == ""){
+      ?>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+          <script>
+            if (media.matches) {
+                Swal.fire({
+                  text: "Kein Key angegeben!",
+                  icon: "warning",
+                  showConfirmButton: false,
+                  allowEscapeKey: false,
+                  allowOutsideClick: false,
+                  timer: 1500
+                })
+              } else {
+                Swal.fire({
+                  title: "Kein Key angegeben!",
+                  icon: "warning",
+                  showConfirmButton: false,
+                  allowEscapeKey: false,
+                  allowOutsideClick: false,
+                  timer: 1500
+                })
+              }</script>
+      <?php
+    }else{
+      ?>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+          <script>
+          if (media.matches) {
+            Swal.fire({
+              text: "Falscher Key!",
+              icon: "error",
+              allowEscapeKey: false,
+              allowOutsideClick: false,
+              confirmButtonText: "OK"
+            }).then(() => {
+              window.history.back()
+            });
+          } else {
+            Swal.fire({
+              title: "Falscher Key!",
+              icon: "error",
+              allowEscapeKey: false,
+              allowOutsideClick: false,
+              confirmButtonText: "OK"
+            })
+          }</script>
+      <?php
+    }
+  }
+?>
   <header>
     <h1>Beweise</h1>
     <nav>
@@ -34,14 +115,13 @@
   </header>
   <hr / id="mlg-hr-top">
   <!-- Download -->
-  <div id="download-div" class="download-div hidden">
+  <!--<div id="download-div" class="download-div hidden">
   <form method="POST" action="download-process.php">
     <button name="download-button">DOWNLOAD</button>
-  </form>
+  </form>-->
   </div>
 </body>
-  <script type="text/javascript" src="main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <!--<script type="text/javascript" src="main.js"></script>-->
 <footer class="footer-main" id="footer-main">
   <div id="footer1">
     <ul>

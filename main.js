@@ -1,19 +1,25 @@
 // Copyright© by Fin
 
 // Login
+// DownloadDiv
 const downloadDiv = document.getElementById("download-div");
 downloadDiv.classList.remove("download-div");
+
+// Input
 const inputKeyField = document.getElementById("key");
 
-
-const footer = document.getElementById("footer-main");
+// Loginform
 const loginform = document.getElementById("login");
 loginform.classList.remove("hidden");
 
-var media = window.matchMedia("(max-width: 375px)")
+// Media
+var media = window.matchMedia("(max-width: 375px)");
+
+// Login-button
+const loginButton = document.getElementById("login-button");
 
 // check Key
-document.getElementById("login-button").addEventListener("click", () => {
+loginButton.addEventListener("click", () => {
   const inputKey = inputKeyField.value;
   // Retrieve text
   fetch("0.txt")
