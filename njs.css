@@ -1,0 +1,8 @@
+/* Copyright© by Fin */
+html {
+  visibility: hidden;
+}
+
+#login {
+  display: none;
+}

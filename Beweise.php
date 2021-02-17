@@ -10,37 +10,19 @@
 </head>
 <noscript>
     <li><a href="https://support.google.com/adsense/answer/12654?hl=de"/>JavaScript ist deaktiviert.</a></li>
-    <link href="jsactive.css" rel="stylesheet">
+    <link href="njs.css" rel="stylesheet">
 </noscript>
 <body>
-<!--
-$ip = $_SERVER["REMOTE_ADDR"];
-$mip = "x";
-
-if($ip == $mip):?>
-<style>#login{display: none;}</style>
-endif; -->
 <form id="login" method="POST" action="">
     <input type="text" id="key" placeholder="Key" name="key">
     <input type="submit" id="login-button" name="login" value="Login">
 </form>
 
 <script>var media = window.matchMedia("(max-width: 375px)");</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <?php
-if (x) {
-    x
-    if (x) {
 x
-    <?php
-    if (x) {
-        x
-    } else {
-        x
-    }
-
-    }else if (x){
     ?>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         <script>
             if (media.matches) {
                 Swal.fire({
@@ -64,7 +46,6 @@ x
     <?php
     }else{
     ?>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         <script>
             if (media.matches) {
                 Swal.fire({
@@ -97,16 +78,9 @@ x
         </ul>
     </nav>
 </header>
-<hr
-/ id="mlg-hr-top">
-<!-- Download -->
-<!--<div id="download-div" class="download-div hidden">
-<form method="POST" action="download-process.php">
-  <button name="download-button">DOWNLOAD</button>
-</form>-->
+<hr / id="mlg-hr-top">
 </div>
 </body>
-<!--<script type="text/javascript" src="main.js"></script>-->
 <footer class="footer-main" id="footer-main">
     <div id="footer1">
         <ul>

@@ -26,15 +26,6 @@ noscript, header, footer {
   visibility: visible;
 }
 
-.download-div {
-  margin-top: 100px;
-  margin-bottom: -20px;
-}
-
-.hidden {
-  display: none;
-}
-
 #login {
   margin-top: 100px;
 }
