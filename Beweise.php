@@ -35,7 +35,6 @@
       <script>x</script>
       <?php
       if(x){
-        // Define headers
 
         x
       } else{
