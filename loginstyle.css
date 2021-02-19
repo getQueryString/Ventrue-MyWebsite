@@ -1,7 +1,6 @@
 /* Copyright© by Fin & from another source */
 body {
   height: 100vh;
-  overflow: hidden;
   background: linear-gradient(120deg, black, yellow);
 }
 
@@ -38,7 +37,7 @@ form .password_input {
 .password_input input {
   width: 100%;
   padding: 0 5px;
-  height: 55px;
+  height: 50px;
   font-size: 16px;
   border: none;
   background: none;
@@ -97,25 +96,21 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 375px) {
   .footer-main {
-    margin-top: 600px;
+    margin-top: 500px;
   }
 
   .login_form {
     top: 40%;
-    height: 210px;
-    width: 330px;
+    height: 215px;
+    width: 320px;
   }
 
   .login_form h1 {
     font-size: 22px;
   }
 
-  .login_form input {
-    margin-top: -6px;
-  }
-
   input[type="submit"] {
-    width: 80%;
+    width: 75%;
     height: 35px;
     font-size: 16px;
   }
