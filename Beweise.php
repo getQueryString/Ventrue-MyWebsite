@@ -13,10 +13,19 @@
     <link href="njs.css" rel="stylesheet">
 </noscript>
 <body>
-<form id="login" method="POST" action="">
-    <input type="text" id="key" placeholder="Key" name="key">
-    <input type="submit" id="login-button" name="login" value="Login">
-</form>
+  
+<div class="center">
+    <link rel="stylesheet" type="text/css" href="loginstyle.css">
+  <h1>Login</h1>
+  <form method="POST" action="">
+    <div class="txt_field">
+      <input type="password" name="key">
+      <span></span>
+      <label>Key</label>
+    </div>
+    <input type="submit" name="login" value="Login">
+  </form>
+</div>
 
 <script>var media = window.matchMedia("(max-width: 375px)");</script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
