@@ -66,16 +66,16 @@ form .password_input {
   transition: .5s;
 }
 
-.password_input input:focus~label, .password_input input:valid~label {
+.password_input input:focus~label {
   top: -5px;
   color: #8412fd;
 }
 
-.password_input input:focus~span::before, .password_input input:valid~span::before {
+.password_input input:focus~span::before {
   width: 100%;
 }
 
-input[type="submit"] {
+.submit_button {
   width: 100%;
   height: 40px;
   border: 1px solid;
@@ -89,7 +89,7 @@ input[type="submit"] {
   transition: .5s;
 }
 
-input[type="submit"]:hover {
+.submit_button:hover {
   border-color: #2691d9;
   transition: .5s;
 }
@@ -110,13 +110,13 @@ input[type="submit"]:hover {
     font-size: 22px;
   }
 
-  input[type="submit"] {
+  .submit_button {
     width: 75%;
     height: 35px;
     font-size: 16px;
   }
 
-  input[type="submit"]:hover {
+  .submit_button:hover {
     transition: .5s;
   }
 }

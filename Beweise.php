@@ -23,7 +23,7 @@
       <span></span>
       <label>Key</label>
     </div>
-    <input type="submit" name="login" value="Login">
+    <input class="submit_button" type="submit" name="login" value="Login">
   </form>
 </div>
 
