@@ -13,12 +13,12 @@
     <link href="njs.css" rel="stylesheet">
 </noscript>
 <body>
-  
-<div class="center">
+
+<div class="login_form">
     <link rel="stylesheet" type="text/css" href="loginstyle.css">
   <h1>Login</h1>
   <form method="POST" action="">
-    <div class="txt_field">
+    <div class="password_input">
       <input type="password" name="key">
       <span></span>
       <label>Key</label>

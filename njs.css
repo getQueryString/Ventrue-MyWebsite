@@ -3,6 +3,12 @@ html {
   visibility: hidden;
 }
 
-#login {
-  display: none;
+.footer-main {
+  margin-top: 665px !important;
+}
+
+@media screen and (max-width: 375px) {
+  .footer-main {
+    margin-top: 400px !important;
+  }
 }

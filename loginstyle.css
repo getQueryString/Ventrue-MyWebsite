@@ -93,3 +93,29 @@ input[type="submit"]:hover {
   border-color: #2691d9;
   transition: .5s;
 }
+
+@media screen and (max-width: 375px) {
+  .footer-main {
+    margin-top: 600px;
+  }
+
+  .login_form {
+    top: 40%;
+    height: 212px;
+    width: 330px;
+  }
+
+  .login_form h1 {
+    font-size: 22px;
+  }
+
+  input[type="submit"] {
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    transition: .5s;
+  }
+}
