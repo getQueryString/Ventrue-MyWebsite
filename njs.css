@@ -7,6 +7,7 @@ html {
   margin-top: 665px !important;
 }
 
+/********** iPhone 6/7/8 **********/
 @media screen and (max-width: 375px) {
   .footer-main {
     margin-top: 400px !important;
