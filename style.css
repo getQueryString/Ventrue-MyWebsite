@@ -3,13 +3,41 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100px;
   text-align: center;
   font-family: 'Russo One', sans-serif;
 }
 
-html {
-  background-color: #383838;
+#html-index, #html-beweise, #html-mlg-rush, #html-map, #html-spielmodies {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#html-index {
+  background-image: url('pictures/Background/Userinterface_Background.png');
+}
+
+#html-beweise {
+  background: linear-gradient(-7deg, white, #2e39b9);
+}
+
+#html-mlg-rush {
+  height: auto;
+  background: linear-gradient(300deg, white, #8412fd);
+}
+
+#html-map {
+  height: 100%;
+  background: linear-gradient(0deg, #2e39b9, #b5d1ff);
+}
+
+#html-spielmodies {
+  background: url('pictures/Background/Spielmodies_Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 .swal2-title {
@@ -133,7 +161,7 @@ h1 {
   width: 480px;
   height: auto;
   border-radius: 50px;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 #mlg-rush-maps img:hover {
@@ -164,7 +192,6 @@ h2 {
 #pics ul li {
   width: 25%;
   float: left;
-  margin-bottom: 30px;
 }
 
 #pics img {
@@ -180,52 +207,33 @@ h2 {
   cursor: pointer;
 }
 
-#pics-2 {
-  width: 90%;
-  margin: 0 auto 0 auto;
-}
-
-#pics-2 ul {
-  padding: 0;
-}
-
-#pics-2 ul li {
-  width: 25%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-#pics-2 img {
-  width: 390px;
-  height: auto;
-  border-radius: 50px;
-}
-
-#pics-2 img:hover {
-  transform: scale(1.05);
-  border-radius: 60px;
-  cursor: pointer;
-}
-
 /********** FOOTER **********/
 .footer-main {
   background-color: #8412fd;
   height: 160px;
-  margin-top: 815px;
+  margin-top: 815px !important;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
 }
 
-.footer-pics {
+.footer-beweise {
   background-color: #8412fd;
   height: 160px;
-  margin-top: 231px;
+  margin-top: 815px !important;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
+}
+
+#footer-mlg-rush {
+  margin-top: 150px !important;
+}
+
+#footer-pics {
+  margin-top: 60px !important;
 }
 
 footer {
   background-color: #8412fd;
   height: 160px;
-  margin-top: 63px;
+  margin-top: 387px !important;
   box-shadow: 0 -5px 20px rgba(0, 0, 0, 2);
 }
 
@@ -333,8 +341,26 @@ footer {
   background-color: #1c2538;
 }
 
+@media (max-width: 1700px) {
+  #pics ul li {
+    width: 33.3%;
+  }
+
+  #pics img {
+    margin-top: 50px;
+  }
+
+  footer {
+    margin-top: 815px !important;
+  }
+
+  .footer-pics {
+    margin-top: 650px !important;
+  }
+}
+
 /********** iPhone 6/7/8 **********/
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
 
   /********** GENERAL SETTINGS **********/
   noscript {
@@ -426,17 +452,22 @@ footer {
   /********** FOOTER **********/
   .footer-main {
     height: 80px;
-    margin-top: 380px;
+    margin-top: 452px !important;
   }
 
-  .footer-pics {
+  .footer-beweise {
     height: 80px;
-    margin-top: 1200px;
+    margin-top: 460px !important;
+  }
+
+  #footer-pics {
+    height: 80px;
+    margin-top: 100px !important;
   }
 
   footer {
     height: 80px;
-    margin-top: 111px;
+    margin-top: 1490px !important;
   }
 
   #footer-p {
@@ -510,20 +541,6 @@ footer {
   }
 
   #pics img {
-    width: 330px;
-    margin-top: 20px;
-  }
-
-  #pics-2 {
-    width: 90%;
-  }
-
-  #pics-2 ul li {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  #pics-2 img {
     width: 330px;
     margin-top: 20px;
   }

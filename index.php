@@ -1,7 +1,7 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" id="html-index">
 
 <head>
     <meta charset="UTF-8">

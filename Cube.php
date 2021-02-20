@@ -1,7 +1,7 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" style="background: url('pictures/Background/Cube_Background.png'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center center;">
 
 <head>
   <meta charset="UTF-8">
@@ -28,13 +28,6 @@
         <li><a href="Cube/Cube-Top.php"><img src="pictures/Maps/MLG-Rush/Cube/1.1.png" alt="Cube-Top" /></a></li>
         <li><a href="Cube/Cube-Middle.php"><img src="pictures/Maps/MLG-Rush/Cube/1.2.png" alt="Cube-Middle" /></a></li>
         <li><a href="Cube/Cube-Middle2.php"><img src="pictures/Maps/MLG-Rush/Cube/1.3.png" alt="Cube-Middle2" /></a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="MLG-Rush-Cube-pics-2">
-    <div id="pics-2">
-      <ul>
         <li><a href="Cube/Cube-Back.php"><img src="pictures/Maps/MLG-Rush/Cube/1.4.png" alt="Cube-Back" /></a></li>
         <li><a href="Cube/Cube-Back2.php"><img src="pictures/Maps/MLG-Rush/Cube/1.5.png" alt="Cube-Back2" /></a></li>
         <li><a href="Cube/Cube-Spawn.php"><img src="pictures/Maps/MLG-Rush/Cube/1.6.png" alt="Cube-Spawn" /></a></li>

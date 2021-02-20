@@ -1,7 +1,7 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" id="html-spielmodies">
 
 <head>
     <meta charset="UTF-8">

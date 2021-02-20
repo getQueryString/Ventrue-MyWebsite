@@ -28,13 +28,6 @@
         <li><a href="Darkmap/Darkmap-Top.php"><img src="pictures/Maps/MLG-Rush/Darkmap/3.1.png" alt="Darkmap-Top" /></a></li>
         <li><a href="Darkmap/Darkmap-Middle.php"><img src="pictures/Maps/MLG-Rush/Darkmap/3.2.png" alt="Darkmap-Middle" /></a></li>
         <li><a href="Darkmap/Darkmap-Middle2.php"><img src="pictures/Maps/MLG-Rush/Darkmap/3.3.png" alt="Darkmap-Middle2" /></a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="MLG-Rush-Darkmap-pics-2">
-    <div id="pics-2">
-      <ul>
         <li><a href="Darkmap/Darkmap-Back.php"><img src="pictures/Maps/MLG-Rush/Darkmap/3.4.png" alt="Darkmap-Back" /></a></li>
         <li><a href="Darkmap/Darkmap-Back2.php"><img src="pictures/Maps/MLG-Rush/Darkmap/3.5.png" alt="Darkmap-Back2" /></a></li>
         <li><a href="Darkmap/Darkmap-Spawn.php"><img src="pictures/Maps/MLG-Rush/Darkmap/3.6.png" alt="Darkmap-Spawn" /></a></li>

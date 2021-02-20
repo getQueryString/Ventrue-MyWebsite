@@ -1,7 +1,7 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" id="html-beweise">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -90,7 +90,7 @@ x
 <hr / id="mlg-hr-top">
 </div>
 </body>
-<footer class="footer-main" id="footer-main">
+<footer class="footer-beweise">
     <div id="footer1">
         <ul>
             <li><a href="https://github.com/getQueryString"/>GitHub</a></li>

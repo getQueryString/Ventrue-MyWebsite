@@ -28,13 +28,6 @@
         <li><a href="Biology/Biology-Top.php"><img src="pictures/Maps/MLG-Rush/Biology/2.1.png" alt="Biology-Top" /></a></li>
         <li><a href="Biology/Biology-Middle.php"><img src="pictures/Maps/MLG-Rush/Biology/2.2.png" alt="Biology-Middle" /></a></li>
         <li><a href="Biology/Biology-Middle2.php"><img src="pictures/Maps/MLG-Rush/Biology/2.3.png" alt="Biology-Middle2" /></a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="MLG-Rush-Biology-pics-2">
-    <div id="pics-2">
-      <ul>
         <li><a href="Biology/Biology-Back.php"><img src="pictures/Maps/MLG-Rush/Biology/2.4.png" alt="Biology-Back" /></a></li>
         <li><a href="Biology/Biology-Back2.php"><img src="pictures/Maps/MLG-Rush/Biology/2.5.png" alt="Biology-Back2" /></a></li>
         <li><a href="Biology/Biology-Spawn.php"><img src="pictures/Maps/MLG-Rush/Biology/2.6.png" alt="Biology-Spawn" /></a></li>

@@ -1,7 +1,7 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" id="html-mlg-rush">
 
 <head>
     <meta charset="UTF-8">
@@ -49,7 +49,7 @@
             </div>
         </section>
 </body>
-<footer>
+<footer id="footer-mlg-rush">
     <div id="footer1">
         <ul>
             <li><a href="https://github.com/getQueryString"/>GitHub</a></li>
