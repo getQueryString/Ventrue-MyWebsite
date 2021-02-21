@@ -1,7 +1,7 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" id="html-map">
 
 <head>
   <meta charset="UTF-8">
@@ -37,7 +37,7 @@
   </section>
   </section>
 </body>
-<footer class="footer-pics">
+<footer id="footer-map">
   <div id="footer1">
     <ul>
       <li><a href="https://github.com/getQueryString" />GitHub</a></li>

@@ -1,7 +1,7 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de" id="html-map">
+<html lang="de" id="html-pics">
 
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@
 <hr / id="mlg-hr-top">
 <img src="../pictures/Maps/MLG-Rush/Biology/2.4.png" alt="Cube-Side"/>
 </body>
-<footer>
+<footer id="footer-pics">
     <div id="footer1">
         <ul>
             <li><a href="https://github.com/getQueryString"/>GitHub</a></li>
