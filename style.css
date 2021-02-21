@@ -7,7 +7,7 @@ html, body {
   font-family: 'Russo One', sans-serif;
 }
 
-#html-index, #html-beweise, #html-mlg-rush, #html-map {
+#html-index, #html-beweise, #html-mlg-rush {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -29,6 +29,10 @@ html, body {
 
 #html-map {
   background: url('pictures/Background/Maps_Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 #html-pics {
@@ -470,6 +474,10 @@ footer {
   .footer-beweise {
     height: 80px;
     margin-top: 460px !important;
+  }
+
+  #footer-map {
+    margin-top: 1800px !important;
   }
 
   #footer-pics {
