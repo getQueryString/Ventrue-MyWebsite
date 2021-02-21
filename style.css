@@ -7,7 +7,7 @@ html, body {
   font-family: 'Russo One', sans-serif;
 }
 
-#html-index, #html-beweise, #html-mlg-rush, #html-map, #html-spielmodies, #html-pics {
+#html-index, #html-beweise, #html-mlg-rush, #html-map {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -34,6 +34,10 @@ html, body {
 #html-pics {
   height: 100%;
   background: linear-gradient(0deg, #2e39b9, #b5d1ff);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 #html-spielmodies {
@@ -362,8 +366,8 @@ footer {
     margin-top: 815px !important;
   }
 
-  .footer-pics {
-    margin-top: 650px !important;
+  #footer-map {
+    margin-top: 1050px !important;
   }
 }
 
@@ -468,7 +472,7 @@ footer {
     margin-top: 460px !important;
   }
 
-  .footer-pics {
+  #footer-pics {
     height: 80px;
     margin-top: 100px !important;
   }
