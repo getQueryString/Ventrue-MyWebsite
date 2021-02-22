@@ -11,6 +11,8 @@
 </head>
 
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
 <header>
     <h1>MLG-Rush</h1>
     <nav>
@@ -26,7 +28,7 @@
     <hr / id="mlg-hr">
     <div id="mlg-rush-maps">
         <ul>
-            <li><a href="Cube.php"><img src="pictures/Maps/MLG-Rush/Cube/1.0.png" alt="Cube"/></a></li>
+            <li><a href="Cube.php"><img id="mlg-rush-map-img" src="pictures/Maps/MLG-Rush/Cube/1.0.png" alt="Cube"/></a></li>
         </ul>
     </div>
 
@@ -35,7 +37,7 @@
         <hr / id="mlg-hr">
         <div id="mlg-rush-maps">
             <ul>
-                <li><a href="Biology.php"><img src="pictures/Maps/MLG-Rush/Biology/2.0.png" alt="Biology"/></a></li>
+                <li><a href="Biology.php"><img id="mlg-rush-map-img" src="pictures/Maps/MLG-Rush/Biology/2.0.png" alt="Biology"/></a></li>
             </ul>
         </div>
 
@@ -44,11 +46,12 @@
             <hr / id="mlg-hr">
             <div id="mlg-rush-maps">
                 <ul>
-                    <li><a href="Darkmap.php"><img src="pictures/Maps/MLG-Rush/Darkmap/3.0.png" alt="Darkmap"/></a></li>
+                    <li><a href="Darkmap.php"><img id="mlg-rush-map-img" src="pictures/Maps/MLG-Rush/Darkmap/3.0.png" alt="Darkmap"/></a></li>
                 </ul>
             </div>
         </section>
-</body>
+          <hr / id="mlg-hr-bottom">
+</div>
 <footer id="footer-mlg-rush">
     <div id="footer1">
         <ul>
@@ -74,5 +77,6 @@
         <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
     </div>
 </footer>
-
+</div>
+</body>
 </html>

@@ -13,7 +13,8 @@
     <link href="njs.css" rel="stylesheet">
 </noscript>
 <body>
-
+  <div id="page-container">
+    <div id="content-wrap">
 <div class="login_form">
     <link rel="stylesheet" type="text/css" href="loginstyle.css">
   <h1>Login</h1>
@@ -87,9 +88,9 @@ x
         </ul>
     </nav>
 </header>
-<hr / id="mlg-hr-top">
+
 </div>
-</body>
+</div>
 <footer class="footer-beweise">
     <div id="footer1">
         <ul>
@@ -115,4 +116,6 @@ x
         <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
     </div>
 </footer>
+</div>
+</body>
 </html>

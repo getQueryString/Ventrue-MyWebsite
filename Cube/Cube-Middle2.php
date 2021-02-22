@@ -12,6 +12,8 @@
 </head>
 
 <body>
+  <div id="pic-page-container">
+    <div id="content-wrap">
 <header>
     <h1>Cube-Middle2</h1>
     <nav>
@@ -21,10 +23,9 @@
         </ul>
     </nav>
 </header>
-<hr
-/ id="mlg-hr-top">
+<hr / id="mlg-hr-top">
 <img src="../pictures/Maps/MLG-Rush/Cube/1.4.png" alt="Cube-Side"/>
-</body>
+</div>
 <footer id="footer-pics">
     <div id="footer1">
         <ul>
@@ -50,5 +51,6 @@
         <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
     </div>
 </footer>
-
+</div>
+</body>
 </html>

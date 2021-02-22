@@ -11,6 +11,8 @@
 </head>
 
 <body>
+  <div id="map-page-container">
+    <div id="content-wrap">
   <header>
     <h1>Biology</h1>
     <nav>
@@ -24,18 +26,19 @@
   <section id="MLG-Rush-Biology-pics">
     <div id="pics">
       <ul>
-        <li><a href="Biology/Biology-Side.php"><img src="pictures/Maps/MLG-Rush/Biology/2.0.png" alt="Biology-Side" /></a></li>
-        <li><a href="Biology/Biology-Top.php"><img src="pictures/Maps/MLG-Rush/Biology/2.1.png" alt="Biology-Top" /></a></li>
-        <li><a href="Biology/Biology-Middle.php"><img src="pictures/Maps/MLG-Rush/Biology/2.2.png" alt="Biology-Middle" /></a></li>
-        <li><a href="Biology/Biology-Middle2.php"><img src="pictures/Maps/MLG-Rush/Biology/2.3.png" alt="Biology-Middle2" /></a></li>
-        <li><a href="Biology/Biology-Back.php"><img src="pictures/Maps/MLG-Rush/Biology/2.4.png" alt="Biology-Back" /></a></li>
-        <li><a href="Biology/Biology-Back2.php"><img src="pictures/Maps/MLG-Rush/Biology/2.5.png" alt="Biology-Back2" /></a></li>
-        <li><a href="Biology/Biology-Spawn.php"><img src="pictures/Maps/MLG-Rush/Biology/2.6.png" alt="Biology-Spawn" /></a></li>
-        <li><a href="Biology/Biology-Spawn2.php"><img src="pictures/Maps/MLG-Rush/Biology/2.7.png" alt="Biology-Spawn2" /></a></li>
+        <li><a href="Biology/Biology-Side.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.0.png" alt="Biology-Side" /></a></li>
+        <li><a href="Biology/Biology-Top.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.1.png" alt="Biology-Top" /></a></li>
+        <li><a href="Biology/Biology-Middle.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.2.png" alt="Biology-Middle" /></a></li>
+        <li><a href="Biology/Biology-Middle2.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.3.png" alt="Biology-Middle2" /></a></li>
+        <li><a href="Biology/Biology-Back.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.4.png" alt="Biology-Back" /></a></li>
+        <li><a href="Biology/Biology-Back2.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.5.png" alt="Biology-Back2" /></a></li>
+        <li><a href="Biology/Biology-Spawn.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.6.png" alt="Biology-Spawn" /></a></li>
+        <li><a href="Biology/Biology-Spawn2.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Biology/2.7.png" alt="Biology-Spawn2" /></a></li>
       </ul>
     </div>
   </section>
-</body>
+</div>
+<div id="mlg-div-pics-bottom"></div>
 <footer id="footer-map">
   <div id="footer1">
     <ul>
@@ -61,5 +64,6 @@
         <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
       </div>
 </footer>
-
+</div>
+</body>
 </html>

@@ -12,6 +12,8 @@
 </head>
 
 <body>
+  <div id="pic-page-container">
+    <div id="content-wrap">
 <header>
     <h1>Biology-Back2</h1>
     <nav>
@@ -20,10 +22,10 @@
             <li><a href="../Biology.php">» Zurück •</a></li>
         </ul>
     </nav>
-</header id="footer-pics">
+</header>
 <hr / id="mlg-hr-top">
 <img src="../pictures/Maps/MLG-Rush/Biology/2.5.png" alt="Cube-Side"/>
-</body>
+</div>
 <footer id="footer-pics">
     <div id="footer1">
         <ul>
@@ -49,5 +51,6 @@
         <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
     </div>
 </footer>
-
+</div>
+</body>
 </html>

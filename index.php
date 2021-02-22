@@ -11,6 +11,8 @@
 </head>
 
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
 <header>
     <h1>Userinterface</h1>
     <nav>
@@ -20,9 +22,9 @@
         </ul>
     </nav>
 </header>
-<hr / id="mlg-hr-top">
 
-</body>
+
+</div>
 <footer class="footer-main">
     <div id="footer1">
         <ul>
@@ -48,5 +50,6 @@
         <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
     </div>
 </footer>
-
+</div>
+</body>
 </html>

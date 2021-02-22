@@ -128,6 +128,23 @@ img {
   height: auto;
   border-radius: 50px;
   margin-top: 10px;
+  margin-bottom: 180px;
+  width: 75.4%;
+}
+
+#mlg-rush-map-img {
+  height: auto;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 75.4%;
+}
+
+#mlg-rush-map-pics {
+  height: auto;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
   width: 75.4%;
 }
 
@@ -187,6 +204,11 @@ h1 {
   margin: 30px auto 20px;
 }
 
+#mlg-hr-bottom {
+  padding: 90px;
+  opacity: 0%;
+}
+
 h2 {
   font-variant: small-caps;
 }
@@ -220,41 +242,44 @@ h2 {
 }
 
 /********** FOOTER **********/
-.footer-main {
-  background-color: #8412fd;
-  height: 160px;
-  margin-top: 807px !important;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-.footer-beweise {
-  background-color: #8412fd;
-  height: 160px;
-  margin-top: 807px !important;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
+#mlg-rush-page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-#footer-mlg-rush {
-  margin-top: 150px !important;
+#map-page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-#footer-pics {
-  margin-top: 60px !important;
+#pic-page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-#footer-map {
-  margin-top: 807px !important;
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+footer, #footer-main, #footer-beweise, #footer-mlg-rush, #footer-pics, #footer-map {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer {
   background-color: #8412fd;
   height: 160px;
-  margin-top: 387px !important;
   box-shadow: 0 -5px 20px rgba(0, 0, 0, 2);
 }
 
 #footer-p {
-  padding-top: 110px;
+  padding-top: 100px;
   text-align: center;
   font-variant: small-caps;
   font-size: 20px;
@@ -366,12 +391,8 @@ footer {
     margin-top: 50px;
   }
 
-  footer {
-    margin-top: 815px !important;
-  }
-
-  #footer-map {
-    margin-top: 1050px !important;
+  #mlg-div-pics-bottom {
+    padding: 520px;
   }
 }
 
@@ -441,7 +462,14 @@ footer {
   img {
     width: 375px;
     height: auto;
-    margin-top: 27px;
+  }
+
+  #mlg-rush-map-img {
+    margin-bottom: 30px;
+  }
+
+  #mlg-div-pics-bottom {
+    padding: 0;
   }
 
   /********** HEADER **********/
@@ -466,32 +494,16 @@ footer {
   }
 
   /********** FOOTER **********/
-  .footer-main {
-    height: 80px;
-    margin-top: 452px !important;
-  }
-
-  .footer-beweise {
-    height: 80px;
-    margin-top: 460px !important;
-  }
-
-  #footer-map {
-    margin-top: 1800px !important;
-  }
-
-  #footer-pics {
-    height: 80px;
-    margin-top: 100px !important;
+  #map-page-container {
+    min-height: 370vh;
   }
 
   footer {
     height: 80px;
-    margin-top: 1490px !important;
   }
 
   #footer-p {
-    padding-top: 45px;
+    padding-top: 35px;
     font-size: 12px;
   }
 

@@ -11,6 +11,8 @@
 </head>
 
 <body>
+  <div id="map-page-container">
+    <div id="content-wrap">
   <header>
     <h1>Cube</h1>
     <nav>
@@ -24,19 +26,20 @@
   <section id="MLG-Rush-Cube-pics">
     <div id="pics">
       <ul>
-        <li><a href="Cube/Cube-Side.php"><img src="pictures/Maps/MLG-Rush/Cube/1.0.png" alt="Cube-Side" /></a></li>
-        <li><a href="Cube/Cube-Top.php"><img src="pictures/Maps/MLG-Rush/Cube/1.1.png" alt="Cube-Top" /></a></li>
-        <li><a href="Cube/Cube-Middle.php"><img src="pictures/Maps/MLG-Rush/Cube/1.2.png" alt="Cube-Middle" /></a></li>
-        <li><a href="Cube/Cube-Middle2.php"><img src="pictures/Maps/MLG-Rush/Cube/1.3.png" alt="Cube-Middle2" /></a></li>
-        <li><a href="Cube/Cube-Back.php"><img src="pictures/Maps/MLG-Rush/Cube/1.4.png" alt="Cube-Back" /></a></li>
-        <li><a href="Cube/Cube-Back2.php"><img src="pictures/Maps/MLG-Rush/Cube/1.5.png" alt="Cube-Back2" /></a></li>
-        <li><a href="Cube/Cube-Spawn.php"><img src="pictures/Maps/MLG-Rush/Cube/1.6.png" alt="Cube-Spawn" /></a></li>
-        <li><a href="Cube/Cube-Spawn2.php"><img src="pictures/Maps/MLG-Rush/Cube/1.7.png" alt="Cube-Spawn2" /></a></li>
+        <li><a href="Cube/Cube-Side.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.0.png" alt="Cube-Side" /></a></li>
+        <li><a href="Cube/Cube-Top.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.1.png" alt="Cube-Top" /></a></li>
+        <li><a href="Cube/Cube-Middle.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.2.png" alt="Cube-Middle" /></a></li>
+        <li><a href="Cube/Cube-Middle2.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.3.png" alt="Cube-Middle2" /></a></li>
+        <li><a href="Cube/Cube-Back.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.4.png" alt="Cube-Back" /></a></li>
+        <li><a href="Cube/Cube-Back2.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.5.png" alt="Cube-Back2" /></a></li>
+        <li><a href="Cube/Cube-Spawn.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.6.png" alt="Cube-Spawn" /></a></li>
+        <li><a href="Cube/Cube-Spawn2.php"><img id="mlg-rush-map-pics" src="pictures/Maps/MLG-Rush/Cube/1.7.png" alt="Cube-Spawn2" /></a></li>
       </ul>
     </div>
   </section>
   </section>
-</body>
+</div>
+<div id="mlg-div-pics-bottom"></div>
 <footer id="footer-map">
   <div id="footer1">
     <ul>
@@ -62,5 +65,6 @@
     <p>| » Copyright © 2021 getQueryString - All rights reserved. |</p>
   </div>
 </footer>
-
+</div>
+</body>
 </html>
