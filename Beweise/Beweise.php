@@ -30,7 +30,7 @@
 
 <script>var media = window.matchMedia("(max-width: 375px)");</script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-
+x
         <script>
             if (media.matches) {
                 Swal.fire({
