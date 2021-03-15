@@ -128,6 +128,15 @@ img {
   width: 75.4%;
 }
 
+.blur {
+  filter: blur(4px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+  transition: all 50ms;
+  -webkit-transition: all 50ms;
+  -moz-transition: all 50ms;
+  -o-transition: all 50ms;
+}
+
 #mlg-rush-map-img {
   height: auto;
   border-radius: 50px;
