@@ -97,7 +97,7 @@ h4 {
   * If you think this is a malfunction of the server, please inform the webmaster.<br />
   * Return to the home page.</p>
   <nav class="error-nav">
-    <a href="../" class="link">Index</a>&nbsp;|&nbsp;<a href="mailto:postmaster@localhost"
+    <a href="/dashboard/Ventrue-MyWebsite" class="link">Index</a>&nbsp;|&nbsp;<a href="mailto:postmaster@localhost"
     class="link">Webmaster</a>
   </nav>
   </main>
