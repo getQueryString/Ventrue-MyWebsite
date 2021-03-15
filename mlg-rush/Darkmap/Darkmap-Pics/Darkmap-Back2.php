@@ -10,19 +10,19 @@
 
     <title>Darkmap-Back2</title>
 </head>
-
-<body>
-  <div id="pic-page-container">
-    <div id="content-wrap">
 <header>
     <h1>Darkmap-Back2</h1>
     <nav>
         <ul>
-            <li><a href="../../../index.php">» Start •</a></li>
-            <li><a href="../Darkmap.php">» Zurück •</a></li>
+            <li><a href="../../../">» Start •</a></li>
+            <li><a href="../">» Zurück •</a></li>
         </ul>
     </nav>
 </header>
+<body>
+  <div id="pic-page-container">
+    <div id="content-wrap">
+
 <hr / id="mlg-hr-top">
 <img src="../../../pictures/Maps/MLG-Rush/Darkmap/3.5.png" alt="Cube-Side"/>
 </div>

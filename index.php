@@ -9,20 +9,18 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Userinterface</title>
 </head>
-
-<body>
-  <div id="page-container">
-    <div id="content-wrap">
 <header>
     <h1>Userinterface</h1>
     <nav>
         <ul>
-            <li><a href="Beweise/Beweise.php">» Beweise •</a></li>
-            <li><a href="Spielmodies/Spielmodies.php">» Spielmodies •</a></li>
+            <li><a href="Beweise">» Beweise •</a></li>
+            <li><a href="Spielmodies">» Spielmodies •</a></li>
         </ul>
     </nav>
 </header>
-
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
 
 </div>
 <footer class="footer-main">

@@ -10,19 +10,19 @@
 
     <title>Biology-Spawn</title>
 </head>
-
-<body>
-  <div id="pic-page-container">
-    <div id="content-wrap">
 <header>
     <h1>Biology-Spawn</h1>
     <nav>
         <ul>
-            <li><a href="../../../index.php">» Start •</a></li>
-            <li><a href="../Biology.php">» Zurück •</a></li>
+            <li><a href="../../../">» Start •</a></li>
+            <li><a href="../">» Zurück •</a></li>
         </ul>
     </nav>
 </header>
+<body>
+  <div id="pic-page-container">
+    <div id="content-wrap">
+
 <hr / id="mlg-hr-top">
 <img src="../../../pictures/Maps/MLG-Rush/Biology/2.6.png" alt="Cube-Side"/>
 </div>
