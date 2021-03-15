@@ -47,34 +47,7 @@
 
 <script>var media = window.matchMedia("(max-width: 375px)");</script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-<?php
-if (isset($_POST["login"])) {
-    $file = file_get_contents("0.txt", FALSE, NULL, 0, 17) or die("Unable to open file!");
-    $key = $_POST["key"];
-    if ($key == $file) {
 
-        $filename = "Beweise - 12.02.2021-15.24.zip";
-        $filepath = "../download/Beweise - 12.02.2021-15.24.zip"; ?>
-        <script>const filename = "Beweise - 12.02.2021-15.24.zip";
-            const file_error = "Error: File " + filename + " does not found.";</script>
-    <?php
-    if (file_exists($filepath)) {
-        // Define headers
-        header("Cache-Control: no-cache, no-store, must-revalidate");
-        header("Expires: 0");
-        header("Content-type: application/zip");
-        header('Content-Disposition: attachment; filename="' . $filename . '"');
-        header("Content-Transfer-Encoding: binary");
-        header("Content-Length: " . filesize($filepath));
-        ob_end_flush();
-        readfile($filepath);
-    } else {
-        echo "<script>console.log(file_error)</script>";
-        echo "Error: File $filename does not found.";
-    }
-
-    }else if ($key == ""){
-    ?>
         <script>
             if (media.matches) {
                 Swal.fire({
