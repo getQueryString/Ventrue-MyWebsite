@@ -18,7 +18,7 @@
     </nav>
 </header>
 <noscript>
-<meta http-equiv="refresh" content="0; URL=http://77.22.79.37/error/HTTP_JAVASCRIPT_DISABLED.php">
+<meta http-equiv="refresh" content="0; /error/HTTP_JAVASCRIPT_DISABLED.php">
   <header>
   <h1 class="noscript-h1">JavaScript ist deaktiviert.</h1>
 </header>
