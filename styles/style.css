@@ -1,4 +1,4 @@
-/* Copyright© by Fin */
+/* Copyright© by Fin & https://www.youtube.com/watch?v=u_xNgzzfaM8 */
 /********** GENERAL SETTINGS **********/
 html, body {
   margin: 0;
@@ -70,19 +70,9 @@ h3 {
   margin-bottom: -142px;
 }
 
-noscript li {
-  margin-top: 20px;
-}
-
-.noscript-li-a {
+.noscript-h1 {
   color: red;
-  font-weight: bold;
   text-decoration: underline;
-  font-size: 2em;
-}
-
-noscript nav ul li {
-  margin-top: 23px;
 }
 
 noscript header {
@@ -128,13 +118,20 @@ img {
   width: 75.4%;
 }
 
+img:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 2);
+  transform: scale(1.05);
+}
+
+.b-effect {
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+
 .blur {
   filter: blur(4px);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 2);
-  transition: all 50ms;
-  -webkit-transition: all 50ms;
-  -moz-transition: all 50ms;
-  -o-transition: all 50ms;
 }
 
 #mlg-rush-map-img {
@@ -246,7 +243,6 @@ h2 {
   cursor: pointer;
 }
 
-/********** FOOTER **********/
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -271,6 +267,83 @@ h2 {
   padding-bottom: 2.5rem;
 }
 
+/********** List **********/
+.box {
+  background: #f6f6f6;
+  width: 500px;
+  margin: 10% auto;
+  border-bottom: 20px solid transparent;
+  border-radius: 10px;
+  font-variant: small-caps;
+}
+
+.box h2 {
+  color: black;
+  background: transparent;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.box ul {
+  position: relative;
+  background: #fff;
+}
+
+.box ul li {
+  padding: 12px;
+  width: 100%;
+  margin-left: -32px;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+  transition: transform 0.5s;
+}
+
+.box ul li a {
+  color: black;
+}
+
+.box ul {
+  text-align: left;
+}
+
+.box ul li a:hover {
+  cursor: pointer;
+}
+
+.box ul:hover li {
+  opacity: 0.2;
+}
+
+.box ul li:hover {
+  transform: scale(1.1);
+  z-index: 100;
+  background: #8412fd;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+  color: #fff;
+  opacity: 1;
+}
+
+.box ul li span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: #8412fd;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.box ul li:hover span {
+  background: #fff;
+  color: #25bcff;
+}
+
+/********** FOOTER **********/
 footer, #footer-main, #footer-beweise, #footer-mlg-rush, #footer-pics, #footer-map {
   position: absolute;
   bottom: 0;
@@ -279,12 +352,12 @@ footer, #footer-main, #footer-beweise, #footer-mlg-rush, #footer-pics, #footer-m
 
 footer {
   background-color: #8412fd;
-  height: 160px;
+  height: 100px;
   box-shadow: 0 -5px 20px rgba(0, 0, 0, 2);
 }
 
 #footer-p {
-  padding-top: 100px;
+  padding-top: 40px;
   text-align: center;
   font-variant: small-caps;
   font-size: 20px;
@@ -294,7 +367,7 @@ footer {
   color: white;
   font-size: 18px;
   float: left;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 15px;
   font-variant: small-caps;
   background-color: black;
@@ -318,7 +391,7 @@ footer {
   color: white;
   font-size: 18px;
   float: left;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 15px;
   font-variant: small-caps;
   background-color: black;
@@ -343,7 +416,7 @@ footer {
   color: white;
   font-size: 18px;
   float: left;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 15px;
   font-variant: small-caps;
   background-color: black;
@@ -367,7 +440,7 @@ footer {
   color: white;
   font-size: 18px;
   float: left;
-  margin-top: 40px;
+  margin-top: 20px;
   font-variant: small-caps;
   background-color: black;
   border-radius: 7px;
@@ -498,23 +571,29 @@ footer {
     letter-spacing: -0.1px;
   }
 
+  /********** List **********/
+  .box {
+    width: 80%;
+    margin-top: 15%;
+  }
+
   /********** FOOTER **********/
   #map-page-container {
     min-height: 370vh;
   }
 
   footer {
-    height: 80px;
+    height: 70px;
   }
 
   #footer-p {
-    padding-top: 35px;
+    padding-top: 30px;
     font-size: 12px;
   }
 
   #footer1 ul li a {
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: -15px;
     padding: 1px 0 1px 0;
     width: 17%;
@@ -526,7 +605,7 @@ footer {
 
   #footer2 ul li a {
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 1px 0 1px 0;
     width: 21%;
   }
@@ -537,7 +616,7 @@ footer {
 
   #footer3 ul li a {
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 1px 0 1px 0;
     width: 17%;
   }
@@ -549,7 +628,7 @@ footer {
 
   #footer4 ul li a {
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 1px 0 1px 0;
     width: 25%;
   }

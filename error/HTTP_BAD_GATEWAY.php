@@ -95,12 +95,13 @@ h4 {
 <p>Bad gateway. To continue:</p>
 <p>* Refresh/Reload the page.<br />
   * Close all open browser windows and start a new session.<br />
-  * Clear your cache and delete your cookies.<br />
+  * Clear browser cache.<br />
+  * Clear browser cookies.<br />
   * Start your browser in safe mode.</br />
   * Try another browser.<br />
   * Restart your computer.</p>
   <nav class="error-nav">
-    <a href="../" class="link">Index</a>&nbsp;|&nbsp;<a href="mailto:postmaster@localhost"
+    <a href="/" class="link">Index</a>&nbsp;|&nbsp;<a href="mailto:postmaster@localhost"
     class="link">Webmaster</a>
   </nav>
   </main>

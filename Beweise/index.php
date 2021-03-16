@@ -18,15 +18,9 @@
     </nav>
 </header>
 <noscript>
-
+<meta http-equiv="refresh" content="0; URL=http://77.22.79.37/error/HTTP_JAVASCRIPT_DISABLED.php">
   <header>
-  <!-- <h1>JavaScript ist deaktiviert.</h1> -->
-  <li><a href="https://support.google.com/adsense/answer/12654?hl=de" class="noscript-li-a">JavaScript ist deaktiviert.</a></li>
-    <nav>
-        <ul>
-            <li><a href="../">» Start •</a></li>
-        </ul>
-    </nav>
+  <h1 class="noscript-h1">JavaScript ist deaktiviert.</h1>
 </header>
     <link rel="stylesheet" href="../styles/njs.css">
 </noscript>

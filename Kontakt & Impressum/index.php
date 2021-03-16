@@ -1,37 +1,26 @@
-<!-- Copyright© by Fin & https://www.youtube.com/watch?v=u_xNgzzfaM8 -->
+<!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de" id="html-index">
+<html lang="de" id="html-spielmodies">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <title>Userinterface</title>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <title>Kontakt & Impressum</title>
 </head>
 <header>
-    <h1>Userinterface</h1>
+    <h1>Kontakt & Impressum</h1>
     <nav>
         <ul>
-            <li><a href="Kontakt & Impressum">» Kontakt & Impressum •</a></li>
-
+            <li><a href="../">» Start •</a></li>
+            <!-- <li><a href="../mlg-rush">» MLG-Rush •</a></li> -->
         </ul>
     </nav>
 </header>
 <body>
   <div id="page-container">
     <div id="content-wrap">
-</div>
-
-<div class="box">
-  <h2>Navigation</h2>
-  <ul>
-    <li><span>1</span><a href="Spielmodies">» Spielmodies •</a></li>
-    <li><span>2</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-    <li><span>3</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-    <li><span>4</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-    <li><span>5</span><a href="Beweise">» Beweise •</a></li>
-</ul>
 </div>
 <footer class="footer-main">
     <div id="footer1">

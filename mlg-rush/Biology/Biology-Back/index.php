@@ -10,7 +10,7 @@
 
     <title>Biology-Back</title>
 </head>
-<header id="header-pics" class="blur">
+<header id="header-pics" class="blur b-effect">
     <h1>Biology-Back</h1>
     <nav>
         <ul>
@@ -25,9 +25,8 @@
 
 <hr / id="mlg-hr-top">
 <img src="../../../pictures/Maps/MLG-Rush/Biology/2.4.png" alt="Cube-Side" id="img-blur"/>
-<script src="../../../js/script.js"></script>
 </div>
-<footer id="footer-pics" class="blur">
+<footer id="footer-pics" class="blur b-effect">
     <div id="footer1">
         <ul>
             <li><a href="https://github.com/getQueryString"/>GitHub</a></li>
@@ -53,5 +52,6 @@
     </div>
 </footer>
 </div>
+<script src="../../../js/script.js"></script>
 </body>
 </html>

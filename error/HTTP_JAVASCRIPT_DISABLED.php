@@ -88,30 +88,15 @@ h4 {
   background: gray;
   color: blue;
 }
-
-/********** iPhone 6/7/8 **********/
-@media (max-width: 375px) {
-  body, p {
-    font-size: 13px;
-  }
-
-  h1 {
-    font-size: 2.3rem/1.05rem;
-  }
-}
 </style>
 <body>
 <main class="bsod container">
-<h1 class="neg title"><span class="bg">Error - 404</span></h1>
-<p>Page not found. To continue:</p>
-<p>* Refresh/Reload the page.<br />
-  * Double check the URL.<br />
-  * Move up one directory level at a time in the URL until you find something.<br />
-  * Search for the page from a popular search engine.<br />
-  * Return to the home page.</p>
+<h1 class="neg title"><span class="bg">Error - JavaScript disabled</span></h1>
+<p>JavaScript is disabled in your browser. To continue:</p>
+<p>* Activate JavaScript in your browser.</p>
   <nav class="error-nav">
-    <a href="/" class="link">Index</a>&nbsp;|&nbsp;<a href="mailto:postmaster@localhost"
-    class="link">Webmaster</a>
+    <a href="/" class="link">Index</a>&nbsp;|&nbsp;<a href="https://support.google.com/adsense/answer/12654?hl=de"
+    class="link">Help</a>
   </nav>
   </main>
 </body>
