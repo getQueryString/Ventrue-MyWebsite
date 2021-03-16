@@ -19,12 +19,19 @@
         </ul>
     </nav>
 </header>
+<noscript>
+<meta http-equiv="refresh" content="0; URL=http://77.22.79.37/error/HTTP_JAVASCRIPT_DISABLED.php">
+  <header>
+  <h1 class="noscript-h1">JavaScript ist deaktiviert.</h1>
+</header>
+    <link rel="stylesheet" href="../../../styles/njs.css">
+</noscript>
 <body>
   <div id="pic-page-container">
     <div id="content-wrap">
 
 <hr / id="mlg-hr-top">
-<img src="../../../pictures/Maps/MLG-Rush/Biology/2.4.png" alt="Cube-Side" id="img-blur"/>
+<img src="../../../pictures/Maps/MLG-Rush/Biology/2.4.png" alt="Cube-Side" id="img-blur" class="img-blur"/>
 </div>
 <footer id="footer-pics" class="blur b-effect">
     <div id="footer1">

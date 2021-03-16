@@ -14,13 +14,24 @@
     <nav>
         <ul>
             <li><a href="../">» Start •</a></li>
-            <li><a href="../mlg-rush">» MLG-Rush •</a></li>
+            <li><a href="Kontakt & Impressum">» Kontakt •</a></li>
         </ul>
     </nav>
 </header>
 <body>
   <div id="page-container">
     <div id="content-wrap">
+</div>
+
+<div class="box">
+  <h2>Navigation</h2>
+  <ul>
+    <li><span>1</span><a href="../mlg-rush">» MLG-Rush •</a></li>
+    <li><span>2</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
+    <li><span>3</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
+    <li><span>4</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
+
+</ul>
 </div>
 <footer class="footer-main">
     <div id="footer1">

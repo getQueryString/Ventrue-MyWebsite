@@ -7,7 +7,7 @@ html, body {
   font-family: 'Russo One', sans-serif;
 }
 
-#html-index, #html-beweise, #html-mlg-rush {
+#html-index, #html-kontakt, #html-beweise, #html-mlg-rush {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -15,6 +15,10 @@ html, body {
 }
 
 #html-index {
+  background-image: url('../pictures/Background/Userinterface_Background.png');
+}
+
+#html-kontakt {
   background-image: url('../pictures/Background/Userinterface_Background.png');
 }
 
@@ -120,10 +124,11 @@ img {
 
 img:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 2);
-  transform: scale(1.05);
+  /* transform: scale(1.01); */
 }
 
 .b-effect {
+  -webkit-backface-visibility: hidden !important;
   transition: all 500ms;
   -webkit-transition: all 500ms;
   -moz-transition: all 500ms;
@@ -340,7 +345,11 @@ h2 {
 
 .box ul li:hover span {
   background: #fff;
-  color: #25bcff;
+  color: #8412fd;
+}
+
+.box ul li a:hover {
+  color: #fff;
 }
 
 /********** FOOTER **********/
@@ -553,7 +562,7 @@ footer {
   /********** HEADER **********/
   header nav {
     float: right;
-    margin: -75px 44px 0 0;
+    margin: -75px 55px 0 0;
   }
 
   header nav ul li {

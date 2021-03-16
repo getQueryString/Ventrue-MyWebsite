@@ -1,20 +1,19 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de" id="html-spielmodies">
+<html lang="de" id="html-kontakt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
-    <title>Kontakt & Impressum</title>
+    <title>Kontakt</title>
 </head>
 <header>
-    <h1>Kontakt & Impressum</h1>
+    <h1>Kontakt</h1>
     <nav>
         <ul>
             <li><a href="../">» Start •</a></li>
-            <!-- <li><a href="../mlg-rush">» MLG-Rush •</a></li> -->
         </ul>
     </nav>
 </header>

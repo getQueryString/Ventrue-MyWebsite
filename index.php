@@ -13,7 +13,7 @@
     <h1>Userinterface</h1>
     <nav>
         <ul>
-            <li><a href="Kontakt & Impressum">» Kontakt & Impressum •</a></li>
+            <li><a href="Kontakt & Impressum">» Kontakt •</a></li>
 
         </ul>
     </nav>
@@ -29,8 +29,7 @@
     <li><span>1</span><a href="Spielmodies">» Spielmodies •</a></li>
     <li><span>2</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
     <li><span>3</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-    <li><span>4</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-    <li><span>5</span><a href="Beweise">» Beweise •</a></li>
+    <li><span>4</span><a href="Beweise">» Beweise •</a></li>
 </ul>
 </div>
 <footer class="footer-main">

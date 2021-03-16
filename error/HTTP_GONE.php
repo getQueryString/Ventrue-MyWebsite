@@ -88,6 +88,17 @@ h4 {
   background: gray;
   color: blue;
 }
+
+/********** iPhone 6/7/8 **********/
+@media (max-width: 375px) {
+  body, p {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 2.3rem/1.05rem;
+  }
+}
 </style>
 <body>
 <main class="bsod container">
