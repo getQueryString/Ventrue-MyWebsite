@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Error 502</title>
+    <title>Error 503</title>
 </head>
 <style>
 /********** GENERAL SETTINGS **********/

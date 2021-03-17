@@ -1,20 +1,21 @@
 <!-- Copyright© by Fin -->
 
 <!DOCTYPE html>
-<html lang="de" id="html-spielmodies">
+<html lang="de" id="html-kontakt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
-    <title>Spielmodies</title>
+    <link rel="stylesheet" type="text/css" href="../styles/kontaktstyle.css">
+    <title>Kontakt</title>
 </head>
 <header>
-    <h1>Spielmodies</h1>
+    <h1>Kontakt</h1>
     <nav>
         <ul>
             <li><a href="../">» Start •</a></li>
-            <li><a href="../Kontakt">» Kontakt •</a></li>
+            <li><a href="javascript:history.back()">» Zurück •</a></li>
         </ul>
     </nav>
 </header>
@@ -22,16 +23,14 @@
   <div id="page-container">
     <div id="content-wrap">
 </div>
-
-<div class="box">
-  <h2>Navigation</h2>
-  <ul>
-    <li><span>1</span><a href="../mlg-rush">» MLG-Rush •</a></li>
-    <li><span>2</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-    <li><span>3</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-    <li><span>4</span><a href="error/HTTP_NOT_FOUND.php">» Empty •</a></li>
-
-</ul>
+<div class="kontakt-content">
+  <h2>- Kontakt -</h2>
+  <hr />
+  <h3>Fin/getQueryString</h3>
+  <p>» Discord: getQueryString#6944 «</p>
+  <p>» TeamSpeak: ts.Ventrue.EU «</p>
+  <br/>
+  <hr />
 </div>
 <footer class="footer-main">
     <div id="footer1">

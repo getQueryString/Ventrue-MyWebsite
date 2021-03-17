@@ -14,6 +14,7 @@
     <nav>
         <ul>
             <li><a href="../">» Start •</a></li>
+            <li><a href="../Kontakt">» Kontakt •</a></li>
         </ul>
     </nav>
 </header>

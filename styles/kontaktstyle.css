@@ -1,0 +1,134 @@
+* {
+  transition: all 900ms;
+  -webkit-transition: all 900ms;
+  -moz-transition: all 900ms;
+  -o-transition: all 900ms;
+  font-variant: small-caps;
+}
+
+.kontakt-content {
+  width: 13%;
+  padding: 5px 50px 50px 50px;
+  background-color: black;
+  border-color: yellow;
+  border-style: dotted;
+  margin: auto;
+  margin-top: 10%;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 30px;
+  transition: all 900ms;
+  -webkit-transition: all 900ms;
+  -moz-transition: all 900ms;
+  -o-transition: all 900ms;
+}
+
+.kontakt-content:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 2);
+  border-radius: 50px;
+  width: 60%;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+
+p:hover {
+  letter-spacing: 1px;
+  cursor: crosshair;
+}
+
+.kontakt-content:hover h2 {
+  letter-spacing: 16px;
+}
+
+.kontakt-content:hover h3 {
+  visibility: visible;
+}
+
+.kontakt-content:hover p {
+  visibility: visible;
+}
+
+p {
+  font-size: 14px;
+  visibility: hidden;
+}
+
+h2, h3 {
+  color: red;
+  margin: 0;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 30px 0 10px 0;
+  text-decoration: underline;
+  visibility: hidden;
+}
+
+.kontakt-content p {
+  color: black;
+}
+
+.kontakt-content:hover p {
+  color: red;
+}
+
+.kontakt-content h3 {
+  color: black;
+}
+
+.kontakt-content:hover h3 {
+  color: red;
+}
+
+@media (max-width: 1700px) {
+  .kontakt-content {
+    width: 32%;
+    margin-top: 25%;
+  }
+
+  .kontakt-content:hover h2 {
+    letter-spacing: 11.5px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/********** iPhone 6/7/8 **********/
+@media (max-width: 375px) {
+  .kontakt-content {
+    width: 55%;
+    margin-top: 25%;
+  }
+
+  .kontakt-content:hover h2 {
+    letter-spacing: 11.5px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}

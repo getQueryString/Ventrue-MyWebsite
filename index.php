@@ -13,7 +13,7 @@
     <h1>Userinterface</h1>
     <nav>
         <ul>
-            <li><a href="Kontakt & Impressum">» Kontakt •</a></li>
+            <li><a href="Kontakt">» Kontakt •</a></li>
 
         </ul>
     </nav>

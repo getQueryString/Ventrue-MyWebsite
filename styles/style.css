@@ -18,15 +18,12 @@ html, body {
   background-image: url('../pictures/Background/Userinterface_Background.png');
 }
 
-#html-kontakt {
-  background-image: url('../pictures/Background/Userinterface_Background.png');
-}
-
 #html-beweise {
+  height: auto;
   background: linear-gradient(-7deg, white, #2e39b9);
 }
 
-#html-mlg-rush {
+#html-mlg-rush, #html-kontakt {
   height: auto;
   background: linear-gradient(300deg, white, #8412fd);
 }
@@ -124,7 +121,6 @@ img {
 
 img:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 2);
-  /* transform: scale(1.01); */
 }
 
 .b-effect {
