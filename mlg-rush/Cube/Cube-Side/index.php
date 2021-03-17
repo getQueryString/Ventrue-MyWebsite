@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../../../styles/style.css">
     <title>Cube-Side</title>
 </head>
-<header>
+<header id="header-pics" class="blur b-effect">
     <h1>Cube-Side</h1>
     <nav>
         <ul>
@@ -17,14 +17,21 @@
         </ul>
     </nav>
 </header>
+<noscript>
+<meta http-equiv="refresh" content="0; /error/HTTP_JAVASCRIPT_DISABLED.php">
+  <header>
+  <h1 class="noscript-h1">JavaScript ist deaktiviert.</h1>
+</header>
+    <link rel="stylesheet" href="../../../styles/njs.css">
+</noscript>
 <body>
   <div id="pic-page-container">
     <div id="content-wrap">
 
 <hr / id="mlg-hr-top">
-<img src="../../../pictures/Maps/MLG-Rush/Cube/1.0.png" alt="Cube-Side"/>
+<img src="../../../pictures/Maps/MLG-Rush/Cube/1.0.png" alt="Cube-Side" id="img-blur" class="img-blur"/>
 </div>
-<footer id="footer-pics">
+<footer id="footer-pics" class="blur b-effect">
     <div id="footer1">
         <ul>
             <li><a href="https://github.com/getQueryString"/>GitHub</a></li>
@@ -50,5 +57,6 @@
     </div>
 </footer>
 </div>
+<script src="../../../js/script.js"></script>
 </body>
 </html>
