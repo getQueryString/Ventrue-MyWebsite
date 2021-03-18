@@ -27,9 +27,40 @@
   <h2>- Kontakt -</h2>
   <hr />
   <h3>Fin/getQueryString</h3>
-  <p>» Discord: getQueryString#6944 «</p>
-  <p>» TeamSpeak: ts.Ventrue.EU «</p>
-  <br/>
+  <p>» Discord: getQueryString#6944 •</p>
+  <p>» https://discord.gg/BUZaTs9 •</p>
+  <div class="kcemailform">
+  <form action="" method="post">
+  <input type="email" name="email" placeholder="E-Mail" required/>
+  <select name="sex">
+  <option value="" selected disabled hidden>Keine</option>
+  <option value="m">Männlich</option>
+  <option value="w">Weiblich</option>
+  <option value="d">Dritte</option>
+</select>
+  <input type="submit" name="submit" value="Senden" class="kcemailformbutton"/>
+</div>
+</form>
+  <?php
+  if(isset($_POST["submit"])){
+  $mailFrom = $_POST["email"];
+  $message = "Message";
+  $subject = "Kontaktformular";
+
+  $mailTo = "mr.dudecrafthd@gmail.com";
+  $headers = "E-Mail: ".mailFrom;
+  $txt = "E-mail von ".mailFrom." bekommen.\n\n".message;
+  $s = $_POST["sex"];
+
+if(mail($mailTo, $subject, $txt, $headers, $s)):
+  echo "console.log('Send')";
+else:
+  echo "console.log('Error')";
+endif;
+   header("Location: index.php?mailsend");
+}
+  ?>
+  <p />
   <hr />
 </div>
 <footer class="footer-main">

@@ -1,8 +1,8 @@
 * {
-  transition: all 900ms;
-  -webkit-transition: all 900ms;
-  -moz-transition: all 900ms;
-  -o-transition: all 900ms;
+  transition: all 800ms;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  -o-transition: all 800ms;
   font-variant: small-caps;
 }
 
@@ -24,17 +24,25 @@
 
 .kontakt-content:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 2);
-  border-radius: 50px;
   width: 60%;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
   transition: all 500ms;
   -webkit-transition: all 500ms;
   -moz-transition: all 500ms;
   -o-transition: all 500ms;
+  cursor: crosshair;
 }
 
 p:hover {
-  letter-spacing: 1px;
-  cursor: crosshair;
+  letter-spacing: .2px;
+  cursor: text;
+  transition: all 600ms;
+  -webkit-transition: all 600ms;
+  -moz-transition: all 600ms;
+  -o-transition: all 600ms;
 }
 
 .kontakt-content:hover h2 {
@@ -49,9 +57,24 @@ p:hover {
   visibility: visible;
 }
 
+.kontakt-content:hover .kcemailform {
+  visibility: visible;
+}
+
 p {
   font-size: 14px;
   visibility: hidden;
+}
+
+.kcemailform {
+  visibility: hidden;
+}
+
+.kcemailformbutton {
+  padding: 2px 15px 2px 15px;
+  background: red;
+  border-style: hidden;
+  cursor: pointer;
 }
 
 h2, h3 {
@@ -59,11 +82,11 @@ h2, h3 {
   margin: 0;
 }
 
-h2 {
+.kontakt-content h2 {
   font-size: 26px;
 }
 
-h3 {
+.kontakt-content h3 {
   font-size: 20px;
   padding: 30px 0 10px 0;
   text-decoration: underline;
@@ -88,7 +111,7 @@ h3 {
 
 @media (max-width: 1700px) {
   .kontakt-content {
-    width: 32%;
+    width: 46%;
     margin-top: 25%;
   }
 
@@ -96,16 +119,24 @@ h3 {
     letter-spacing: 11.5px;
   }
 
-  h2 {
+  .kontakt-contenth2 {
     font-size: 22px;
   }
 
-  h3 {
+  .kontakt-content h3 {
+    color: red;
     font-size: 18px;
+    visibility: visible;
   }
 
-  p {
+  .kontakt-content p {
+    color: red;
     font-size: 14px;
+    visibility: visible;
+  }
+
+  .kcemailform {
+    visibility: visible;
   }
 }
 
@@ -120,15 +151,22 @@ h3 {
     letter-spacing: 11.5px;
   }
 
-  h2 {
+  .kontakt-content h2 {
     font-size: 18px;
   }
 
-  h3 {
+  .kontakt-content h3 {
     font-size: 14px;
+    visibility: visible;
   }
 
-  p {
+  .kontakt-content p {
+    color: red;
     font-size: 10px;
+    visibility: visible;
+  }
+
+  .kcemailform {
+    visibility: visible;
   }
 }
