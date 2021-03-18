@@ -36,7 +36,7 @@
   cursor: crosshair;
 }
 
-p:hover {
+.kontakt-content p:hover {
   letter-spacing: .2px;
   cursor: text;
   transition: all 600ms;
@@ -61,7 +61,7 @@ p:hover {
   visibility: visible;
 }
 
-p {
+.kontakt-content p {
   font-size: 14px;
   visibility: hidden;
 }
@@ -77,7 +77,7 @@ p {
   cursor: pointer;
 }
 
-h2, h3 {
+.kontakt-content h2, .kontakt-content h3 {
   color: red;
   margin: 0;
 }
