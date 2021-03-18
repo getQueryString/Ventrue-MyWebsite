@@ -47,7 +47,7 @@
   $message = "Message";
   $subject = "Kontaktformular";
 
-  $mailTo = "mr.dudecrafthd@gmail.com";
+  $mailTo = "mail@mail";
   $headers = "E-Mail: ".mailFrom;
   $txt = "E-mail von ".mailFrom." bekommen.\n\n".message;
   $s = $_POST["sex"];
