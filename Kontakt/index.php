@@ -41,25 +41,6 @@
   <input type="submit" name="submit" value="Senden" class="kcemailformbutton"/>
 </div>
 </form>
-  <?php
-  if(isset($_POST["submit"])){
-  $mailFrom = $_POST["email"];
-  $message = "Message";
-  $subject = "Kontaktformular";
-
-  $mailTo = "mail@mail";
-  $headers = "E-Mail: ".mailFrom;
-  $txt = "E-mail von ".mailFrom." bekommen.\n\n".message;
-  $s = $_POST["sex"];
-
-if(mail($mailTo, $subject, $txt, $headers, $s)):
-  echo "console.log('Send')";
-else:
-  echo "console.log('Error')";
-endif;
-   header("Location: index.php?mailsend");
-}
-  ?>
   <p />
   <hr />
 </div>
